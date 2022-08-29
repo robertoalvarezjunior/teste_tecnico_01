@@ -8,11 +8,10 @@ void main() {
 
 fun() {
   int numInt = 10;
-  int i;
   var lista = [0];
   var soma = 0;
 
-  for (i = 0; i < numInt; i++) {
+  for (int i = 0; i < numInt; i++) {
     if ((i % 3) == 0 || (i % 5) == 0) {
       lista.add(i);
     }
@@ -20,7 +19,7 @@ fun() {
   lista.removeAt(0);
   print(lista);
 
-  for (i = 0; i < lista.length; i++) {
+  for (int i = 0; i < lista.length; i++) {
     soma += lista[i];
   }
 
