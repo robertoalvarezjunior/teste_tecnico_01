@@ -7,12 +7,12 @@ void main() {
 }
 
 fun() {
-  int num = 10;
+  int numInt = 10;
   int i;
   var lista = [0];
   var soma = 0;
 
-  for (i = 0; i < num; i++) {
+  for (i = 0; i < numInt; i++) {
     if ((i % 3) == 0 || (i % 5) == 0) {
       lista.add(i);
     }
