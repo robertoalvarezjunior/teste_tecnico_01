@@ -7,7 +7,7 @@ void main() {
 }
 
 fun() {
-  int num = 11;
+  int num = 10;
   int i;
   var lista = [0];
   var soma = 0;
